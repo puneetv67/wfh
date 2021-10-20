@@ -1,0 +1,7 @@
+package com.project.ipldashboard.ipldashboarddemo.data;
+
+import org.springframework.batch.item.ItemProcessor;
+
+public class BatchProcessor implements ItemProcessor<I, O> {
+
+}

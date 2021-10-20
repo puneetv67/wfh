@@ -1,0 +1,23 @@
+package com.project.demo.bank.exception;
+
+import java.time.LocalDateTime;
+
+public class CustomerNotFoundException extends RuntimeException {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+	private String message;
+	private LocalDateTime time;
+	
+	public CustomerNotFoundException(){
+		
+	}
+	public CustomerNotFoundException(String message, LocalDateTime time) {
+		super();
+		this.message = message;
+		this.time = time;
+	}
+}

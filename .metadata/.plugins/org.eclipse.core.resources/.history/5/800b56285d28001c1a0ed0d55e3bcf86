@@ -1,0 +1,22 @@
+package com.project.demo.bank.exception;
+
+import org.apache.log4j.Logger;
+
+public class AccountNotFoundException extends RuntimeException {
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	//private String message;
+	final static Logger logger = Logger.getLogger(AccountNotFoundException.class);
+	public AccountNotFoundException(){
+		
+	}
+
+	public AccountNotFoundException(String message) {
+		super();
+		//this.message = message;
+		logger.info(message);
+	}
+}

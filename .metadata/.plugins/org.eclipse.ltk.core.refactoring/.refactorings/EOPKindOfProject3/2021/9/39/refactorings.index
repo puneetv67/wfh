@@ -1,0 +1,21 @@
+1632134080769	Rename method 'InvalidHeaderException'
+1632134091800	Rename method 'InvalidTrailerException'
+1632134107669	Rename method 'InvalidRecordException'
+1632211706971	Delete element
+1632212021565	Delete element
+1632212389717	Delete element
+1632212397604	Delete element
+1632212466960	Move package
+1632212521497	Move packages
+1632212728336	Move folder
+1632212744937	Move folder
+1632212766768	Move folders
+1632212788557	Delete element
+1632213558727	Delete element
+1632215573943	Delete element
+1632215598194	Delete element
+1632215608296	Delete elements
+1632215626603	Delete element
+1632216958999	Rename field 'tempFolder'
+1632220791249	Extract local variable 'path'
+1632220851165	Extract local variable 'path2'

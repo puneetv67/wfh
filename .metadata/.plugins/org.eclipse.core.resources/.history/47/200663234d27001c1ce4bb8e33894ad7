@@ -1,0 +1,39 @@
+package com.project.demo.bank.exception;
+
+import java.time.LocalDateTime;
+
+import org.springframework.http.HttpStatus;
+
+public class BankDemoErrors {
+	
+	private String message;
+	private LocalDateTime time;
+	private HttpStatus status;
+	public BankDemoErrors(){
+		
+	}
+	public BankDemoErrors(String message, LocalDateTime time, HttpStatus status) {
+		super();
+		this.message = message;
+		this.time = time;
+		this.status = status;
+	}
+	public String getMessage() {
+		return message;
+	}
+	public void setMessage(String message) {
+		this.message = message;
+	}
+	public LocalDateTime getTime() {
+		return time;
+	}
+	public void setTime(LocalDateTime time) {
+		this.time = time;
+	}
+	public void setStatus(HttpStatus status) {
+		this.status = status;
+	}
+	
+	
+
+}

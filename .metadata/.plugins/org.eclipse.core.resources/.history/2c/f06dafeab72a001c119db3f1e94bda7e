@@ -1,0 +1,14 @@
+package com.project.ipldashboard.ipldashboarddemo.data;
+
+import org.springframework.batch.item.ItemProcessor;
+
+import com.project.ipldashboard.ipldashboarddemo.model.Match;
+
+public class BatchProcessor implements ItemProcessor<MatchInput, Match> {
+
+	@Override
+	public Match process(MatchInput arg0) throws Exception {
+		return null;
+	}
+
+}

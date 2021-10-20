@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/EOPKindOfProject/src/com/eopkindof/file/process/ExecutionClass.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.eopkindof.file.process.ExecutionClass"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="medaltokyo2020ver2.txt"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="EOPKindOfProject"/>
+</launchConfiguration>

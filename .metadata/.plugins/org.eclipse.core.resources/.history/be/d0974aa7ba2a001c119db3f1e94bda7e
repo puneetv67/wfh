@@ -1,0 +1,30 @@
+package com.project.ipldashboard.ipldashboarddemo.data;
+
+import org.apache.log4j.Logger;
+import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
+import org.springframework.batch.item.ItemProcessor;
+import org.springframework.context.annotation.Configuration;
+import com.project.ipldashboard.ipldashboarddemo.model.Match;
+
+@Configuration
+@EnableBatchProcessing
+public class BatchProcessor implements ItemProcessor<MatchInput, Match> {
+	
+	private static Logger logger = Logger.getLogger(BatchProcessor.class);
+
+	@Override
+	public Match process(MatchInput mi) throws Exception {
+		
+		Match match = new Match();
+		match.setCity(mi.getCity());
+		match.setPlayerOfTheMatch(mi.getPlayerOfTheMatch());
+		match.setResult(mi.getResult());
+		match.setResultMargin(mi.getResultMargin());
+		match.setTeam1(mi.getTeam1());
+		match.setTeam2(mi.getTeam2());
+		match.setTossDecision(mi.getTossDecision());
+		match.setTossWinner(mi.getTossWinner());
+		return null;
+	}
+
+}

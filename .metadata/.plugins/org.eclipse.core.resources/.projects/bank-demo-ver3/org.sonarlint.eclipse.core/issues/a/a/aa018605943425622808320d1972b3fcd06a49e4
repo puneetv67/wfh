@@ -1,0 +1,16 @@
+
+e
+java:S1128"-Remove this unused import 'org.junit.Ignore'.(®ÅıÏÿÿÿÿÿ8ˆçú‡Æ/H»)RMINORZ
+CODE_SMELL
+m
+java:S2259]"IA "NullPointerException" could be thrown; "accountByID" is nullable here.(¬¥¢{H•(RMAJORZBUG
+q
+java:S2259É"FA "NullPointerException" could be thrown; "getBody()" can return null.(Û¤ŸãúÿÿÿÿH‹(RMAJORZBUG
+`
+java:S3655’";Call "customerByID.isPresent()" before accessing the value.(Ë¾æ@H™(RMAJORZBUG
+U
+java:S5960H"+Remove this assertion from production code.(‡ğüÿÿÿÿHö'RMAJORZBUG
+q
+java:S2259¾"FA "NullPointerException" could be thrown; "getBody()" can return null.(Ââ™µÿÿÿÿÿH(RMAJORZBUG
+o
+java:S2259’"JA "NullPointerException" could be thrown; "customerByID" is nullable here.(Ë¾æ@H‘(RMAJORZBUG

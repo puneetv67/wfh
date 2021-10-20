@@ -1,0 +1,6 @@
+package com.project.demo.bank.exception;
+
+public enum CustomExceptionMessage {
+	TYPE_MISMATCH = "Type Mismatch";
+}
+}

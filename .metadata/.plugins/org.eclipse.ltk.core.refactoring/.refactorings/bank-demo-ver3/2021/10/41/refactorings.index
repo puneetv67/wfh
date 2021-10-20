@@ -1,0 +1,9 @@
+1633598638177	Rename field 'message'
+1633598688910	Rename local variable 'message'
+1633609016694	Rename type 'GlobalException'
+1633699820457	Delete element
+1633712550065	Delete element
+1633714647000	Extract constant 'EXCEPTION_OCCURED'
+1633714699010	Rename field 'logger'
+1633714772788	Extract constant 'MOCKED_SAVING'
+1633718073485	Extract constant 'STRING'

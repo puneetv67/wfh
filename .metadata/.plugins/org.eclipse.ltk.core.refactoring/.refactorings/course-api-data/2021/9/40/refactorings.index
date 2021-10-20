@@ -1,0 +1,14 @@
+1632731111028	Rename package 'io.springboot.quickstart.courseapidata'
+1632731178593	Rename package 'io.quickstart.springboot.courseapidata'
+1632731285595	Rename package 'io.quickstart.sprintboot.api.hello'
+1632731297254	Rename package 'io.quickstart.sprintboot.api.topic'
+1632731377107	Rename package 'io.quickstart.springboot.api.courseapidata'
+1632749021789	Copy package
+1632749041884	Rename type 'Topic'
+1632749069315	Rename type 'TopicController'
+1632749093844	Rename type 'TopicRepository'
+1632749105641	Rename type 'COurseRepository'
+1632749120791	Rename type 'TopicService'
+1632749137299	Rename field 'topicService'
+1632751397119	Rename method 'deletecourse'
+1632997608308	Copy file

@@ -1,0 +1,26 @@
+package com.project.demo.bank.exception;
+
+import org.apache.log4j.Logger;
+
+public class AccountAlreadyExistsWithCustomerException extends RuntimeException {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private String message;
+	static Logger logger = Logger.getLogger(AccountAlreadyExistsWithCustomerException.class);
+	public String getMessage() {
+		return message;
+	}
+	public void setMessage(String message) {
+		this.message = message;
+	}
+	public AccountAlreadyExistsWithCustomerException() {
+	}
+	public AccountAlreadyExistsWithCustomerException(String message) {
+		super();
+		this.message = message;
+		logger.info(message);
+	}
+}

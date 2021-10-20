@@ -1,0 +1,2 @@
+****Exceptions************
+java.lang.NullPointerException: Should be written to exception file

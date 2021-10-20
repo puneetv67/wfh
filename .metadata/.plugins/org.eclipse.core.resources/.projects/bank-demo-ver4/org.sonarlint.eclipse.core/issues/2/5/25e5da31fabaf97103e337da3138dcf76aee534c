@@ -1,0 +1,24 @@
+
+r
+java:S4684F"@Replace this persistent entity with a simple POJO or DTO object.(ÈíÜ›Hã2RCRITICALZVULNERABILITY
+t
+java:S4488E"HReplace "@RequestMapping(method = RequestMethod.PUT)" with "@PutMapping"(ü€¢ÊHä2RMINORZ
+CODE_SMELL
+r
+java:S4684>"@Replace this persistent entity with a simple POJO or DTO object.(£Á£”Hà2RCRITICALZVULNERABILITY
+l	java:S1259"<This block of commented-out lines of code should be removed.(ð¹¶ÿÿÿÿÿHß2RMAJORZ
+CODE_SMELL
+z
+java:S4488M"NReplace "@RequestMapping(method = RequestMethod.DELETE)" with "@DeleteMapping"(Œž†®Hæ2RMINORZ
+CODE_SMELL
+Š
+java:S22935"YReplace the type specification in this constructor call with the diamond operator ("<>").(‹àí«ýÿÿÿÿHê2RMINORZ
+CODE_SMELL
+l	java:S125,"<This block of commented-out lines of code should be removed.(ð¹¶ÿÿÿÿÿHÞ2RMAJORZ
+CODE_SMELL
+z
+java:S4488U"NReplace "@RequestMapping(method = RequestMethod.DELETE)" with "@DeleteMapping"(Çß—‰Hè2RMINORZ
+CODE_SMELL
+{
+java:S4488="JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(Â¾œÓüÿÿÿÿHá2RMINORZ
+CODE_SMELL

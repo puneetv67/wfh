@@ -1,0 +1,5 @@
+package com.project.demo.bank.exception;
+
+public class AccountAlreadyExistsWithCustomerException extends Exception {
+
+}

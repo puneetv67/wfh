@@ -1,0 +1,13 @@
+1632992421282	Rename package 'com.project.bank.bankdemo'
+1632992454879	Rename type 'BankDemoApplication'
+1632992675082	Copy package
+1632992686939	Rename type 'Account'
+1632992697082	Rename type 'AccountController'
+1632992713089	Rename type 'AccountRepository'
+1632992724591	Rename type 'AccountService'
+1632997624682	Delete element
+1633002656346	Rename local variable 'customer1'
+1633002666305	Rename local variable 'customer2'
+1633003318991	Rename local variable 'amount'
+1633004701092	Rename local variable 'amountToTransfer'
+1633004716835	Rename local variable 'amount2'

@@ -1,0 +1,43 @@
+package com.project.ipldashboard.ipldashboarddemo.data;
+
+import java.time.LocalDate;
+
+import org.apache.log4j.Logger;
+import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
+import org.springframework.batch.item.ItemProcessor;
+import org.springframework.context.annotation.Configuration;
+import com.project.ipldashboard.ipldashboarddemo.model.Match;
+
+@Configuration
+@EnableBatchProcessing
+public class BatchProcessor implements ItemProcessor<MatchInput, Match> {
+	
+	private static Logger logger = Logger.getLogger(BatchProcessor.class);
+
+	@Override
+	public Match process(MatchInput mi) throws Exception {
+		String firstInningTeam;
+		String secondInningTeam;
+		Match match = new Match();
+		match.setCity(mi.getCity());
+		match.setPlayerOfTheMatch(mi.getPlayerOfTheMatch());
+		match.setResult(mi.getResult());
+		match.setResultMargin(mi.getResultMargin());
+		if("bat".equals(mi.getTossDecision())){
+			firstInningTeam=mi.getTossWinner();
+			secondInningTeam=mi.getTossWinner().equals(mi.getTeam1())?mi.getTeam2():mi.getTeam1();
+		}
+		else {
+			secondInningTeam=mi.getTossWinner();
+			firstInningTeam=mi.getTossWinner().equals(mi.getTeam1())?mi.getTeam2():mi.getTeam1();
+		}
+		match.setTeam1(firstInningTeam);
+		match.setTeam2(secondInningTeam);
+		match.setTossDecision(mi.getTossDecision());
+		match.setTossWinner(mi.getTossWinner());
+		match.setId(Long.valueOf(mi.getId()));
+		match.setDate(LocalDate.parse(mi.getDate()));
+		return match;
+	}
+
+}

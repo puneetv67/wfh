@@ -1,0 +1,19 @@
+package com.project.ipldashboard.ipldashboarddemo.data;
+
+import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
+import org.springframework.batch.item.ItemProcessor;
+import org.springframework.context.annotation.Configuration;
+import com.project.ipldashboard.ipldashboarddemo.model.Match;
+
+@Configuration
+@EnableBatchProcessing
+public class BatchProcessor implements ItemProcessor<MatchInput, Match> {
+	
+	static Logger logger;
+
+	@Override
+	public Match process(MatchInput row) throws Exception {
+		return null;
+	}
+
+}

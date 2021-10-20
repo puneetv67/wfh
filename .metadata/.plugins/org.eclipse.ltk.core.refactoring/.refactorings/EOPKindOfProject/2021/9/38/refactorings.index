@@ -1,0 +1,13 @@
+1631628679601	Rename type 'FileRead'
+1631629206389	Delete element
+1631632933307	Rename type 'TokyoOlympics'
+1631638091115	Rename local variable 'choice'
+1631643218911	Rename type 'FileReader'
+1631644552914	Rename type 'ExecuionClass'
+1631784506285	Rename field 'fieldValidationMappingMap'
+1631785030195	Infer generic type arguments
+1631786465061	Rename package 'com.eopkindof.file.vallidate'
+1631787445272	Rename local variable 'validationIdentifierMapper'
+1631787485978	Rename local variable 'validationIdentifier'
+1631789422552	Rename field 'OUTPUT_FOLDER'
+1631798248647	Rename local variable 'destinationOutput'

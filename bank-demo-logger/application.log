@@ -1,0 +1,28 @@
+2021-10-09T00:15:14.154****	com.project.demo.bank.customer.CustomerController:	Inside addCustomer()-> adding a customer to repository
+2021-10-09T00:15:14.119****	com.project.demo.bank.account.AccountController:	Inside deleteAll() -> deleting all accounts from repository
+2021-10-09T00:15:14.154****	com.project.demo.bank.customer.CustomerController:	Inside getCustomerByID()-> return all customers associated with provide id from repository
+2021-10-09T00:15:14.119****	com.project.demo.bank.account.AccountController:	Inside updateAccount() -> adding/updating an account to repository
+2021-10-09T00:15:14.154****	com.project.demo.bank.customer.CustomerController:	Inside updateCustomer()-> adding/updating a customer to repository
+2021-10-09T00:15:14.154****	com.project.demo.bank.customer.CustomerController:	Inside getAllCustomers()-> return all customers from repository
+2021-10-09T00:15:14.154****	com.project.demo.bank.customer.CustomerController:	Inside deleteAll()-> deleting all customers from repository
+2021-10-09T00:15:14.119****	com.project.demo.bank.account.AccountController:	Inside getAllAccounts() -> retrieving all available accounts
+2021-10-09T00:15:14.154****	com.project.demo.bank.customer.CustomerController:	Inside transferFunds()-> transferring funds from one account to another
+2021-10-09T00:15:14.158****	com.project.demo.bank.customer.CustomerService:	before transfer
+2021-10-09T00:15:14.158****	com.project.demo.bank.customer.CustomerService:	existing balance 	1
+2021-10-09T00:15:14.158****	com.project.demo.bank.customer.CustomerService:	amount 	10
+2021-10-09T00:15:14.158****	com.project.demo.bank.customer.CustomerService:	after transfer
+2021-10-09T00:15:14.158****	com.project.demo.bank.customer.CustomerService:	existing balance 	0
+2021-10-09T00:15:14.158****	com.project.demo.bank.customer.CustomerService:	amount 	11
+2021-10-09T00:15:12.969****	com.project.bank.bankdemo.BankDemoApplicationTests:	Inside transferFundSuccessTest() -> Successful transaction of amount 1 from customer id: 1 to customer id: 
+2021-10-09T00:15:14.154****	com.project.demo.bank.customer.CustomerController:	Inside deleteCustomerByID()-> deleting customer associated with provided id from repository
+2021-10-09T00:15:14.119****	com.project.demo.bank.account.AccountController:	Inside getAccountByID() -> retrieving account associated with provided id
+2021-10-09T00:15:14.119****	com.project.demo.bank.account.AccountController:	Inside addAccount() -> adding an account to repository
+2021-10-09T00:15:14.154****	com.project.demo.bank.customer.CustomerController:	Inside transferFunds()-> transferring funds from one account to another
+2021-10-09T00:15:14.158****	com.project.demo.bank.customer.CustomerService:	before transfer
+2021-10-09T00:15:14.158****	com.project.demo.bank.customer.CustomerService:	existing balance 	10
+2021-10-09T00:15:14.158****	com.project.demo.bank.customer.CustomerService:	amount 	1
+2021-10-09T00:15:14.158****	com.project.demo.bank.customer.CustomerService:	after transfer
+2021-10-09T00:15:14.158****	com.project.demo.bank.customer.CustomerService:	existing balance 	0
+2021-10-09T00:15:14.158****	com.project.demo.bank.customer.CustomerService:	amount 	11
+2021-10-09T00:15:12.969****	com.project.bank.bankdemo.BankDemoApplicationTests:	Inside transferFundFailTest() -> Successful transaction of amount 10 from customer id: 1 to customer id: 
+2021-10-09T00:15:14.119****	com.project.demo.bank.account.AccountController:	Inside deleteAccountByID() -> deleting account associated with provided it from repository
